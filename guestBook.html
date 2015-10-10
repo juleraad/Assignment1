@@ -1,0 +1,106 @@
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" type="text/css" href="assg1.css">
+            <script src="validateForm.js">
+                </script>
+            </head>
+    <body>
+        
+        
+        <div style= "height:110px" id="header">
+            <img id="profile" src="profile.jpg">
+                <h2 id = "title">Assg.1: CSS, JavaScript, and Forms</h2>
+                <p id="subtitle">Brought to you by Julien Raad</p>
+                </div>
+        
+        <div id="nav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li>
+                        <a href="guestBook.html">Guest Book</a>
+                        
+                    </li>
+                    <li><a>Courses</a>
+                        <ul>
+                            <li><a href="#">Cp1</a></li>
+                            <li><a href="#">Cp2</a></li>
+                            <li><a href="#">Cp3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            
+            
+        </div>
+        
+        <div id="section">
+        
+        <form id ="form" name="personalInformationForm">
+            <fieldset style="width:430px; height:310px ;">
+                <legend style="font-weight:bold ;margin-bottom:10px">PERSONAL INFORMATION:</legend>
+                
+                
+                Title
+                <select name="titles" style="margin-left:45px">
+                    <option value="Mr" selected>Mr</option>
+                    <option value="Mrs">Mrs</option>
+                    <option value="Miss">Miss</option>
+                    <option value="Ms">Ms</option>
+                </select>
+                
+                <br><br>
+                <text style="margin-right:40px">Age<span id = "star">*</span></text>
+                <input id = "age" type="number"  min="0" max="100" style="width:50px" >
+                    
+                    
+                    <br><br>
+                
+                Gender
+                <input type="radio" name="sex" value="Male" style="margin-left:28px" checked>Male
+                    
+                    <input type="radio" name="sex" value="Female" >Female</input><br><br>
+                       
+                       
+                       
+                       
+                
+               <text>First name<span id = "star">*</span></text>
+                <input id="firstname" type="text" name="firstname" style="margin-right:15px">
+                    
+                    <text>Last name<span id = "star">*</span></text>
+                    <input id= "lastname" type="text" name="lastname" >
+                        <br><br>
+                        
+                        
+                        
+                           <text>Username<span id = "star">*</span></text>
+                            <input id = "username" type="text" name="username" style="margin-left:3px"><br><br>
+                              
+                               <text>Password<span id = "star">*</span></text>
+                                <input id="password" type="password" name="password" style="margin-left:7px"><br><br>
+                        
+                        <input type="button" value="Submit" onclick="validateForm()">
+                            </fieldset>
+        </form>
+            
+            <p id = "required-fields"></p>
+        
+        
+        </div>
+        
+        <div id="googleAd"></div>
+        
+        <div id="footer">CSC 443, Assg 1, Fall 2015
+        </div>
+        
+    
+
+    </body>
+</html>

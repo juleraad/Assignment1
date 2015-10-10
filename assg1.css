@@ -1,0 +1,168 @@
+#header {
+    background-color:black;
+    color:white;
+    text-align:left;
+    
+    padding-left:5px;
+    padding-right:5px;
+    padding-bottom:25px;
+    padding-top:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:340px;
+    width:150px;
+    float:left;
+    padding:5px;
+    
+}
+#section {
+    
+    float:left;
+    padding:10px;
+}
+
+#googleAd{
+    line-height:30px;
+    background-color:#eeeeee;
+    height:340px;
+    width:150px;
+    float:right;
+    padding:5px;
+}
+#footer {
+    background-color:black;
+    color:white;
+    height:20px;
+    clear:both;
+    float:bottom;
+    text-align:center;
+   
+   padding:5px;	 	 
+}
+
+#subtitle {
+    
+    font-size:18px;
+     margin-left:200px;
+     
+}
+
+#title {
+    margin-left:200px;
+    
+}
+
+h3 { color:blue;}
+pre { font-family:TimesNewRoman; clear:both;}
+span {font-weight:bold;}
+
+#star {
+    
+    color:red;
+    
+}
+
+#profile {
+    
+    float:left;
+    width:150px;
+    height:130px;
+    clear:both;
+    
+}
+
+
+#profile-about {
+    
+    float:left;
+    width:300px;
+    height:320px;
+    clear:both;
+    
+}
+
+#description {
+    
+    
+    border-style: solid;
+    border-width: 2px;
+    width:480px;
+    padding:15px;
+    height:200px;
+    color:#ffffff;
+    font-size: 28px;
+    margin-left:350px;
+    background-color:#000000;
+    border-color: #000000;
+    
+    
+    
+}
+
+#form {
+    float:left;
+ 
+}
+#required-fields {
+    margin-left:20px;
+    float:left;
+    
+    font-weight:bold;
+    font-size:16px;
+    width:400px;
+}
+
+
+#yellow-span{
+    color:#fff68f;
+    font-weight:bold;
+}
+
+
+nav a {
+    
+    
+    text-decoration: none;
+    font: 12px/1 Verdana;
+    color: #000;
+    display: block; }
+nav a:hover { text-decoration: underline;
+    font-weight:bold;
+}
+nav ul {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+nav ul li { margin: 0; padding: 0; }
+
+/* Top-level menu */
+nav > ul > li {
+    
+    float: left;
+    position: relative; }
+nav > ul > li > a {
+    margin-top:20px;
+    padding: 10px 30px;
+    
+    display: block;}
+nav > ul > li:first-child { margin: 0; }
+nav > ul > li:first-child a { border: 0; }
+
+/* Dropdown Menu */
+nav ul li ul {
+    position: absolute;
+    background: #ccc;
+    width: 100%;
+    margin-left: 30px;
+    padding: 0;
+    display: none; }
+nav ul li ul li {
+    text-align: center;
+    width: 100%; }
+nav ul li ul a { padding: 10px 0; }
+nav ul li:hover ul { display: block; }
+
+
